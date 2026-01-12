@@ -1,0 +1,38 @@
+.about{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #040038;
+    background: linear-gradient(0deg, rgba(4, 0, 56, 1) 77%, rgba(9, 9, 121, 1) 99%);
+    box-sizing: border-box;
+}
+
+
+
+
+.menu-bar{
+    position: absolute;
+    left: 5px;
+    background: #200000;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.item{
+    color: rgb(190, 173, 173);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+.item .title{
+    font-weight: 600;
+}
+
+.item:hover{
+    background-color: #18000080;
+}

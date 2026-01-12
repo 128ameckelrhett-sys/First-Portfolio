@@ -1,0 +1,38 @@
+.work{
+    display: flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: #040038;
+    background: linear-gradient(0deg, rgb(248, 20, 229) 77%, rgba(9, 9, 121, 1) 99%);
+    box-sizing: border-box;
+}
+
+
+
+.menu-bar{
+    position: absolute;
+    bottom: 5px;
+    background: #ce4f997c;
+    display: flex;
+    justify-content: flex-start;
+    box-sizing: border-box;
+}
+
+.item {
+    color: rgb(0, 0, 0);
+    background-color: transparent;
+    font-size: 18px;
+    display: inline-block;
+    box-sizing: border-box;
+    padding: 14px 20px;
+}
+
+.item.title{
+    font-weight: 600;
+}
+
+.item:hover{
+    background-color: #d12b6b7c;
+}
