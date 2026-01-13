@@ -6,6 +6,7 @@
     background: #000000;
     background: linear-gradient(0deg, rgba(0, 0, 0, 1) 0%, rgba(0, 3, 23, 1) 32%, rgba(0, 2, 38, 1) 100%);
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 
@@ -54,6 +55,8 @@
     font-size: smaller;
     text-align: center;
     z-index: 3;
+    border-style: solid;
+    border-color: black;
 }
 
 .rectangle{
@@ -94,69 +97,111 @@
     z-index: 1;
 }
 
-.rectangle5{
+.centerbuilding{
     position: absolute;
     bottom: 0px;
     height: 3000px;
-    width: 850px;
+    width: 1250px;
     background-color: #363636;
     border: solid color(#000000);
-    z-index: 1;
 }
 
-.rectangle6{
+.rectangle6 {
     position: absolute;
-    left: 550px;
+    left: 540px;
     bottom: 700px;
     height: 200px;
     width: 20px;
-    background-color: #363636;
-    border: solid color(#000000);
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
     z-index: 3;
 }
 
-.rectangle7{
+.rectangle7 {
     position: absolute;
-    left: 550px;
-    bottom: 700px;
+    left: 450px;
+    bottom: 800px;
     height: 20px;
     width: 200px;
-    background-color: #363636;
-    border: solid color(#000000);
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
     z-index: 3;
 }
-
 
 .rectangle8{
     position: absolute;
-    left: 350px;
+    left: 450px;
     bottom: 700px;
     height: 200px;
     width: 200px;
     background-color: #d6c79d;
+    border-style: solid;
+    border-color: black;
     z-index: 2;
 }
 
 .rectangle9{
     position: absolute;
-    right: 350px;
+    right: 540px;
+    bottom: 700px;
+    height: 200px;
+    width: 20px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle10{
+    position: absolute;
+    right: 450px;
+    bottom: 800px;
+    height: 20px;
+    width: 200px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle11{
+    position: absolute;
+    right: 450px;
     bottom: 700px;
     height: 200px;
     width: 200px;
     background-color: #d6c79d;
+    border-style: solid;
+    border-color: black;
     z-index: 2;
 }
 
-.parallelogram{
-	width: 100px;
-	height: 50px;
-	transform: skew(20deg);
-	background: #bebebe;
+.rectangle12{
+    position: absolute;
+    right: 550px;
+    bottom: 0px;
+    padding: 4px;
+    margin: 4px;
+    height: 400px;
+    width: 200px;
+    background-color: #7e7a70;
+    border-style: solid;
+    border-color: black;
+    z-index: 1;
 }
 
-.parallelogram2{
-	width: 100px;
-	height: 50px;
-	transform: skew(20deg);
-	background: #bebebe;
+.drawing{
+    position: absolute;
+    right: 550px;
+    bottom: 1000px;
+    height: 400px;
+    width: 200px;
+    color: aliceblue;
+    z-index: 4;
+}
+
+.door{
+    color: aliceblue;
 }

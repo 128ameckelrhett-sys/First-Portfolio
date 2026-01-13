@@ -6,6 +6,7 @@
     background: #040038;
     background: linear-gradient(0deg, rgba(4, 0, 56, 1) 77%, rgba(9, 9, 121, 1) 99%);
     box-sizing: border-box;
+    overflow: hidden;
 }
 
 
@@ -13,11 +14,12 @@
 
 .menu-bar{
     position: absolute;
-    left: 5px;
+    left: 25px;
     background: #200000;
     display: flex;
     justify-content: flex-start;
     box-sizing: border-box;
+    z-index: 3;
 }
 
 .item{
@@ -35,4 +37,177 @@
 
 .item:hover{
     background-color: #18000080;
+}
+
+
+
+
+
+.centerbuilding{
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+    height: 3000px;
+    width: 1250px;
+    background-color: #200000;
+    border: solid color(#000000);
+}
+
+
+
+
+.rectangle6 {
+    position: absolute;
+    left: 730px;
+    bottom: 725px;
+    height: 200px;
+    width: 20px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle7 {
+    position: absolute;
+    left: 640px;
+    bottom: 825px;
+    height: 20px;
+    width: 200px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle8{
+    position: absolute;
+    left: 640px;
+    bottom: 725px;
+    height: 200px;
+    width: 200px;
+    background-color: #d6c79d;
+    border-style: solid;
+    border-color: black;
+    z-index: 2;
+}
+
+
+
+.rectangle9 {
+    position: absolute;
+    left: 730px;
+    bottom: 375px;
+    height: 200px;
+    width: 20px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle10 {
+    position: absolute;
+    left: 640px;
+    bottom: 475px;
+    height: 20px;
+    width: 200px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle11{
+    position: absolute;
+    left: 640px;
+    bottom: 375px;
+    height: 200px;
+    width: 200px;
+    background-color: #d6c79d;
+    border-style: solid;
+    border-color: black;
+    z-index: 2;
+}
+
+
+
+
+
+
+.rectangle12 {
+    position: absolute;
+    left: 730px;
+    bottom: 25px;
+    height: 200px;
+    width: 20px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle13 {
+    position: absolute;
+    left: 640px;
+    bottom: 125px;
+    height: 20px;
+    width: 200px;
+    background-color: #000000;
+    border-style: solid;
+    border-color: black;
+    z-index: 3;
+}
+
+.rectangle14{
+    position: absolute;
+    left: 640px;
+    bottom: 25px;
+    height: 200px;
+    width: 200px;
+    background-color: #d6c79d;
+    border-style: solid;
+    border-color: black;
+    z-index: 2;
+}
+
+
+
+.cloud{ 
+    position: absolute;
+    right:100px;
+    top: 20px;
+    margin-top:70px;
+    width:250px;
+    height:120px;
+    background:#000622;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    border-radius:100px;
+    z-index: 3;
+}
+.cloud::after, .cloud::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+    z-index: 3;
+}
+.cloud::after{
+    width:100px;
+    height:100px;
+    top:-220px;
+    left:50px;
+    z-index: 3;
+}
+.cloud::before{
+    width:180px;
+    height:180px;
+    top:-70px;
+    left:130px;
+    z-index: 3;
+}
+
+.cloudtext{
+    text-align: center;
 }
