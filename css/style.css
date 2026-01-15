@@ -73,7 +73,7 @@
     bottom: 0px;
     height: 150px;
     width: 3000px;
-    background-color: #363636;
+    background-color: #353333;
     z-index: 2;
 }
 
@@ -83,7 +83,7 @@
     bottom: 0px;
     height: 3000px;
     width: 150px;
-    background-color: #363636;
+    background-color: #131313;
     z-index: 1;
 }
 
@@ -93,7 +93,7 @@
     bottom: 0px;
     height: 3000px;
     width: 150px;
-    background-color: #363636;
+    background-color: #131313;
     z-index: 1;
 }
 
@@ -102,7 +102,7 @@
     bottom: 0px;
     height: 3000px;
     width: 1250px;
-    background-color: #363636;
+    background-color: #131313;
     border: solid color(#000000);
 }
 

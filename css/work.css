@@ -22,7 +22,7 @@
 }
 
 .item {
-    color: rgb(0, 0, 0);
+    color: rgb(212, 0, 89);
     background-color: transparent;
     font-size: 18px;
     display: inline-block;
@@ -39,6 +39,27 @@
 }
 
 
+.rectangle{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    height: 60px;
+    width: 300px;
+    background-color: #271111;
+    z-index: 2;
+}
+
+.rectangle2{
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    bottom: 0px;
+    height: 600px;
+    width: 20px;
+    background-color: #271111;
+    z-index: 2;
+}
 
 
 .cloud{ 
@@ -46,7 +67,7 @@
     right:100px;
     top: 20px;
     margin-top:70px;
-    width:250px;
+    width:280px;
     height:120px;
     background:#ffa5e9;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
@@ -75,16 +96,20 @@
     left:130px;
     z-index: 3;
 }
-
-
+.cloudtext{
+    position: absolute;
+    right:90px;
+    top: 130px;
+    z-index: 4;
+}
 
 .cloud2{ 
     position: absolute;
-    right:100px;
-    top: 20px;
+    right:60px;
+    top: 700px;
     margin-top:70px;
-    width:250px;
-    height:120px;
+    width:270px;
+    height:140px;
     background:#ffa5e9;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
     border-radius:100px;
@@ -99,28 +124,32 @@
     z-index: 3;
 }
 .cloud2::after{
-    width:100px;
-    height:100px;
+    width:120px;
+    height:120px;
     top:-220px;
     left:50px;
     z-index: 3;
 }
 .cloud2::before{
-    width:180px;
-    height:180px;
+    width:200px;
+    height:200px;
     top:-70px;
     left:130px;
     z-index: 3;
 }
-
-
+.cloudtext2{
+    position: absolute;
+    right:10px;
+    top: 820px;
+    z-index: 4;
+}
 
 .cloud3{ 
     position: absolute;
-    right:100px;
-    top: 20px;
+    right:200px;
+    top: 400px;
     margin-top:70px;
-    width:250px;
+    width:450px;
     height:120px;
     background:#ffa5e9;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
@@ -149,16 +178,20 @@
     left:130px;
     z-index: 3;
 }
-
-
+.cloudtext3{
+    position: absolute;
+    right:245px;
+    top: 510px;
+    z-index: 4;
+}
 
 .cloud4{ 
     position: absolute;
     right:1500px;
     top: 20px;
     margin-top:70px;
-    width:230px;
-    height:120px;
+    width:400px;
+    height: 150px;
     background:#ffa5e9;
     box-shadow: 10px 10px rgba(0,0,0,0.2);
     border-radius:100px;
@@ -173,16 +206,144 @@
     z-index: 3;
 }
 .cloud4::after{
+    width:150px;
+    height:140px;
+    top:-220px;
+    left:50px;
+    z-index: 3;
+}
+.cloud4::before{
+    width:240px;
+    height:240px;
+    top:-70px;
+    left:130px;
+    z-index: 3;
+}
+.cloudtext4{
+    position: absolute;
+    right:1515px;
+    top: 160px;
+    z-index: 4;
+}
+
+.cloud5{ 
+    position: absolute;
+    right:1200px;
+    top: 450px;
+    width:430px;
+    height:120px;
+    background:#ffa5e9;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    border-radius:100px;
+    z-index: 3;
+}
+.cloud5::after, .cloud5::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+    z-index: 3;
+}
+.cloud5::after{
     width:100px;
     height:90px;
     top:-220px;
     left:50px;
     z-index: 3;
 }
-.cloud4::before{
+.cloud5::before{
     width:180px;
     height:180px;
     top:-70px;
     left:130px;
     z-index: 3;
+}
+.cloudtext5{
+    position: absolute;
+    right:1230px;
+    top: 520px;
+    z-index: 4;
+}
+
+.cloud6{ 
+    position: absolute;
+    right:800px;
+    top: 50px;
+    margin-top:70px;
+    width:260px;
+    height:120px;
+    background:#ffa5e9;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    border-radius:100px;
+    z-index: 3;
+}
+.cloud6::after, .cloud6::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+    z-index: 3;
+}
+.cloud6::after{
+    width:100px;
+    height:90px;
+    top:-220px;
+    left:50px;
+    z-index: 3;
+}
+.cloud6::before{
+    width:180px;
+    height:180px;
+    top:-70px;
+    left:130px;
+    z-index: 3;
+}
+.cloudtext6{
+    position: absolute;
+    right:755px;
+    top: 160px;
+    z-index: 4;
+}
+
+.cloud7{ 
+    position: absolute;
+    right:1500px;
+    top: 600px;
+    margin-top:70px;
+    width:230px;
+    height:120px;
+    background:#ffa5e9;
+    box-shadow: 10px 10px rgba(0,0,0,0.2);
+    border-radius:100px;
+    z-index: 3;
+}
+.cloud7::after, .cloud7::before{
+    content:"";
+    position:relative;
+    display:inline-block;
+    background:inherit;
+    border-radius:inherit;
+    z-index: 3;
+}
+.cloud7::after{
+    width:100px;
+    height:90px;
+    top:-220px;
+    left:50px;
+    z-index: 3;
+}
+.cloud7::before{
+    width:180px;
+    height:180px;
+    top:-70px;
+    left:130px;
+    z-index: 3;
+}
+.cloudtext7{
+    position: absolute;
+    right:1432px;
+    top: 715px;
+    z-index: 4;
 }
