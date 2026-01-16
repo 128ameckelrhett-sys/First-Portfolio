@@ -173,6 +173,69 @@
 
 
 
+.rectangle18{
+    position: absolute;
+    left: 1000px;
+    height: 2000px;
+    width: 5px;
+    background-color: #000000;
+    z-index: 2;
+}
+
+
+
+.rectangle19{
+    position: absolute;
+    left: 643px;
+    bottom: 345px;
+    height: 60px;
+    width: 200px;
+    background-color: #501919;
+    z-index: 4;
+}
+
+.rectangle19{
+    color: aliceblue;
+    text-decoration: solid;
+    font-size: large;
+    text-align: center;
+    z-index: 4;
+}
+
+.rectangle20{
+    position: absolute;
+    left: 643px;
+    bottom: 685px;
+    height: 60px;
+    width: 200px;
+    background-color: #501919;
+    z-index: 4;
+}
+
+.rectangle20{
+    color: aliceblue;
+    text-decoration: solid;
+    font-size: large;
+    text-align: center;
+    z-index: 4;
+}
+
+.wall{
+    position: absolute;
+    right: 675px;
+    bottom: 500px;
+    color: rgb(127, 204, 27);
+    text-decoration: solid;
+    font-size: x-large;
+    text-align: center;
+    rotate: 35deg;
+    z-index: 4;
+}
+
+
+
+
+
 .cloud{ 
     position: absolute;
     right:100px;
@@ -208,6 +271,12 @@
     z-index: 3;
 }
 
-.cloudtext{
+.cloud2{
+    color: rgb(252, 197, 222);
+    position: absolute;
+    right: 100px;
+    top: 130px;
     text-align: center;
+    font-size: larger;
+    z-index: 5;
 }
